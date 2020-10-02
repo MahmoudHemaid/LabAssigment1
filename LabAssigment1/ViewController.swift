@@ -8,16 +8,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var MyString : String? = "Hello world!" ;
-    
-    func PrintString(){
-        print( "This is the my sring: %@" , MyString);
+    var myString: String? = "Hello world!"
+
+    func printString() {
+        print( "This is the my sring: %@", myString ?? "")
     }
     override func viewDidLoad() {
         super.viewDidLoad()
             // Do any additional setup after loading the view.
     }
 
-
 }
-

@@ -7,12 +7,12 @@
 
 import Foundation
 
-class user {
-    var Name : String!;
-    var Age : Int!;
-    init(_ name : String , age : Int) {
-        self.Name = name
-        self.Age = age
+class User {
+    var name: String!
+    var age: Int!
+
+    init(name: String, age: Int) {
+        self.name = name
+        self.age = age
     }
-    
 }
