@@ -1,0 +1,6 @@
+framework module Pods_LabAssigment1_LabAssigment1UITests {
+  umbrella header "Pods-LabAssigment1-LabAssigment1UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
